@@ -85,6 +85,17 @@ docker run -p 5000:5000 interactsh-wrapper
 
 <br>
 
+## 🐳 Docker Image (Prebuilt)
+
+You can run this service instantly using Docker:
+
+```bash
+docker run -p 5000:5000 nikunjgoswami4/interactsh-wrapper
+```
+👉 Hosted on Docker Hub: https://hub.docker.com/r/nikunjgoswami4/interactsh-wrapper
+
+<br>
+
 ---
 
 ## 💻 Sample Workflow
