@@ -112,6 +112,7 @@ http://localhost:5000/api/getURL?user=nikunj
 🌐 This domain can be used to detect vulnerabilities like Log4Shell, XXE, etc.
 
 <br>
+
 ### 2. 🎯 Simulate an OOB Interaction (Manually)
 You can’t generate real interactions unless a vulnerable service makes a callback to your URL.
 
@@ -126,6 +127,7 @@ https://example.com/api/fetch?url=http://c23b2la0kl1krjcrdj10cndmnioyyyyyn.oast.
 💬 This is how the payload gets sent to a vulnerable target. If the target is vulnerable, it will make a DNS or HTTP request to your Interactsh domain.
 
 <br>
+
 ### 3. 📥 Fetch Interactions for a Given URL
 - Endpoint: `/api/getInteractions`
 - Returns all interactions (IP and timestamp) for a given Interactsh URL
@@ -165,6 +167,7 @@ http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.
 🎯 These logs help confirm that a server interacted with your payload — a strong sign of a vulnerability.
 
 <br>
+
 ### 4. ⏳ (Optional) Filter Interactions by Timestamp
 Use `from` and `to` query params to narrow down results by time.
 ```bash
@@ -190,6 +193,7 @@ http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.
 
 
 <br>
+
 ### 5. ❗ Error Handling — Missing URL Param
 ```bash
 # Using terminal
@@ -207,6 +211,7 @@ http://localhost:5000/api/getInteractions
 ```
 
 <br>
+
 ### 6. 👥 Bonus: Test Multiple Users Simultaneously
 ```bash
 # Using terminal
