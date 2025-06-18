@@ -140,6 +140,9 @@ https://example.com/api/fetch?url=http://c23b2la0kl1krjcrdj10cndmnioyyyyyn.oast.
 # Using terminal
 curl -X GET "http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.oast.pro"
 
+# --OR-- [For output in different format]
+curl -s "http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.oast.pro" | jq -r '.interactions[] | "Received interaction from \(.ip) at \(.timestamp)"'
+
 # Using browser
 http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.oast.pro
 ```
@@ -163,6 +166,10 @@ http://localhost:5000/api/getInteractions?url=c23b2la0kl1krjcrdj10cndmnioyyyyyn.
     }
   ]
 }
+
+# Out put in different format
+Received interaction from 172.253.226.100 at 2025-06-17 12:26:00
+Received interaction from 43.22.22.50 at 2025-06-17 12:26:20
 ```
 🎯 These logs help confirm that a server interacted with your payload — a strong sign of a vulnerability.
 
