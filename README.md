@@ -49,8 +49,8 @@ interactsh-wrapper/
 
 - Python 3.7+
 - [interactsh-client](https://github.com/projectdiscovery/interactsh/releases)
-- (Optional) Docker
-
+- (Optional) Docker 
+- (Optional) `jq` installed ([click here](https://jqlang.org/download/))
 
 <br>
 
