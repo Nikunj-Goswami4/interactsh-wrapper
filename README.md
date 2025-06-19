@@ -89,6 +89,7 @@ docker run -p 5000:5000 interactsh-wrapper
 
 You can run this service instantly using Docker:
 
+First run the **Docker Desktop**
 ```bash
 docker run -p 5000:5000 nikunjgoswami4/interactsh-wrapper
 ```
@@ -234,7 +235,8 @@ http://localhost:5000/api/getInteractions
 ### 6. 👥 Bonus: Test Multiple Users Simultaneously
 ```bash
 # Using terminal
-curl -X GET "http://localhost:5000/api/getURL?user=testuser1" "http://localhost:5000/api/getURL?user=testuser2"
+curl -X GET "http://localhost:5000/api/getURL?user=testuser1"
+curl -X GET "http://localhost:5000/api/getURL?user=testuser2"
 
 # Using browser
 http://localhost:5000/api/getURL?user=testuser1
