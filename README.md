@@ -264,9 +264,9 @@ http://localhost:5000/api/getURL?user=testuser2
 ## 📽️ Demo Videos
 
 ### 1. Using Terminal
-demo_vid_terminal_interactsh_wrapper.mp4
+[demo_vid_terminal_interactsh_wrapper.mp4](https://github.com/user-attachments/assets/f0790cda-0f9a-4a8e-bb85-470ca01c363e)
 
 <br>
 
 ### 2. Using Browser
-demo_vid_browser_interactsh_wrapper.mp4
+[demo_vid_browser_interactsh_wrapper.mp4](https://github.com/user-attachments/assets/ce1c189e-e0ac-4d52-a12b-b3293eaaf11f)
